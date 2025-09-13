@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Frontend Project</title>
-    <link rel='stylesheet' href='assets/css/style.css'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Bundle Selection</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Hello, Frontend!</h1>
-    <script src='assets/js/main.js'></script>
+  <div class="bundle-container">
+    <div class="title">YAY! It's BOGO</div>
+
+    <!-- 1 Unit -->
+    <div class="bundle-option" data-price="$10.00 USD">
+      <div class="bundle-row">
+        <div class="left-container">
+          <div class="left-info">
+            <input type="radio" name="bundle">
+            <span>1 Unit</span>
+            <span class="discount-tag">10% Off</span>
+          </div>
+          <div class="standard-price">Standard Price</div>
+        </div>
+        <div class="price-container">
+          <div class="price">$10.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </div>
+
+      <div class="unit-options">
+        <div class="unit-row">
+          <span class="unit-label">#1</span>
+          <select class="size-select">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color-select">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+        <div class="unit-row">
+          <span class="unit-label">#2</span>
+          <select class="size-select">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color-select">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 Units -->
+    <div class="bundle-option" data-price="$18.00 USD">
+      <div class="bundle-row">
+        <div class="left-container">
+          <div class="left-info">
+            <input type="radio" name="bundle">
+            <span>2 Unit</span>
+            <span class="discount-tag">20% Off</span>
+          </div>
+        </div>
+        <div class="price-container">
+          <div class="price">$18.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </div>
+      <div class="most-popular">MOST POPULAR</div>
+
+      <div class="unit-options">
+        <div class="unit-row">
+          <span class="unit-label">#1</span>
+          <select class="size-select">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color-select">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+        <div class="unit-row">
+          <span class="unit-label">#2</span>
+          <select class="size-select">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color-select">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Units -->
+    <div class="bundle-option" data-price="$24.00 USD">
+      <div class="bundle-row">
+        <div class="left-container">
+          <div class="left-info">
+            <input type="radio" name="bundle">
+            <span>3 Unit</span>
+            <span class="discount-tag">30% Off</span>
+          </div>
+        </div>
+        <div class="price-container">
+          <div class="price">$24.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </div>
+
+      <div class="unit-options">
+        <div class="unit-row">
+          <span class="unit-label">#1</span>
+          <select class="size-select">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color-select">
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+        <div class="unit-row">
+          <span class="unit-label">#2</span>
+          <select class="size-select">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select class="color-select">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="summary">
+      <div class="free-delivery">Free Delivery</div>
+      <div class="total">Total : $0.00 USD</div>
+    </div>
+
+    <button class="add-to-cart">+ Add to Cart</button>
+    
+    <div class="powered-by">@ Powered by Pumper</div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
